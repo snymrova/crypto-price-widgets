@@ -1,0 +1,204 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.wx-crypto-ticker-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 8px 6px -6px #a5a5a5;
+  padding: 10px 0px;
+}
+.wx-crypto-ticker {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.wx-crypto-tick {
+  padding: 3px 26px 12px;
+  letter-spacing: 1px;
+  color: #000;
+  position: relative;
+  border-right: 1px solid #e2e2e2;
+  font-weight: 700;
+}
+.wx-crypto-tick > a {
+  text-decoration: none !important;
+}
+.wx-crypto-tick-logo {
+  width: 24px !important;
+  height: 24px !important;
+  position: absolute;
+  left: 9px;
+  top: 10px;
+}
+.wx-crypto-tick-stats {
+  position: relative;
+  text-transform: uppercase;
+}
+.wx-crypto-tick-stat {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 14px;
+}
+.wx-crypto-tick-change-percentage {
+  position: absolute;
+  left: 14px;
+  bottom: -16px;
+}
+.wx-crypto-tick-price {
+  margin-left: 20px;
+}
+.wx-crypto-tick-quote {
+  color: #8e8e8e;
+}
+.wx-crypto-tick.gain .wx-crypto-tick-change-percentage {
+  color: #57a452;
+}
+.wx-crypto-tick.loss .wx-crypto-tick-change-percentage {
+  color: #ed3f3f;
+}
+.dataTable tbody tr {
+  background-color: #fff !important;
+}
+.dataTable tbody tr td:first-child {
+  text-align: left;
+  font-weight: bold;
+}
+.dataTable tbody tr td {
+  text-align: center;
+  vertical-align: middle;
+}
+.dataTable > thead > tr > th,
+.dataTable > tfoot > tr > th {
+  text-align: center !important;
+}
+.dataTable > thead > tr > th:first-child,
+.dataTable > tfoot > tr > th:first-child {
+  text-align: left !important;
+}
+.dataTable tbody tr td span {
+}
+.dataTables_filter {
+  margin-bottom: 15px;
+}
+.dataTable tbody tr.gain td.change,
+.dataTable tbody tr.gain a.button {
+  color: mediumseagreen;
+}
+.dataTable tbody tr.loss td.change,
+.dataTable tbody tr.loss a.button {
+  color: crimson;
+}
+.dataTable tbody tr a.button,
+.wx-crypto-shortcodes-ticker a.button {
+  text-decoration: none;
+  background: #fff;
+  color:#333;
+  border: 1px solid;
+  padding: 2px 6px;
+  display: block;
+  margin: 0px 10px;
+  border-radius: 4px !important;
+  -webkit-border-radius: 4px !important;
+  box-shadow: none;
+  -webkit-transition: opacity 0.45s cubic-bezier(0.25, 1, 0.33, 1),
+    transform 0.45s cubic-bezier(0.25, 1, 0.33, 1),
+    border-color 0.45s cubic-bezier(0.25, 1, 0.33, 1),
+    color 0.45s cubic-bezier(0.25, 1, 0.33, 1),
+    background-color 0.45s cubic-bezier(0.25, 1, 0.33, 1),
+    box-shadow 0.45s cubic-bezier(0.25, 1, 0.33, 1);
+  transition: opacity 0.45s cubic-bezier(0.25, 1, 0.33, 1),
+    transform 0.45s cubic-bezier(0.25, 1, 0.33, 1),
+    border-color 0.45s cubic-bezier(0.25, 1, 0.33, 1),
+    color 0.45s cubic-bezier(0.25, 1, 0.33, 1),
+    background-color 0.45s cubic-bezier(0.25, 1, 0.33, 1),
+    box-shadow 0.45s cubic-bezier(0.25, 1, 0.33, 1);
+}
+.wx-crypto-shortcodes-ticker .market-title,
+.apexcharts-title-text {
+  text-transform: uppercase;
+}
+.wx-crypto-shortcodes-ticker a.button {
+  display: inline-block;
+}
+.wx-crypto-shortcodes-ticker .toolbar {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.wx-crypto-shortcodes-ticker .toolbar a.button {
+  margin: 0px;
+}
+.wx-crypto-shortcodes-ticker .toolbar a.button.active {
+  color: #fff;
+  border-color: #000;
+  background: #333;
+}
+.wx-crypto-shortcodes-ticker .button.exchange-link {
+  float: right;
+}
+.dataTable tbody tr a.button:hover,
+.wx-crypto-shortcodes-ticker a.button:hover {
+  box-shadow: 0 20px 38px rgba(0, 0, 0, 0.16) !important;
+  -ms-transform: translateY(-3px);
+  transform: translateY(-3px);
+  -webkit-transform: translateY(-3px);
+}
+.dataTable td.v-middle {
+  vertical-align: middle;
+}
+.dataTable tbody tr td.code {
+  text-transform: uppercase;
+}
+.dataTable tbody tr td.code img {
+  width: 20px !important;
+  vertical-align: top;
+  margin-top: 4px;
+}
+.dataTable tbody tr td.code span {
+  margin-left: 22px;
+  margin-top: -6px;
+}
+/* Responsive dataTable */
+.dataTable ul.dtr-details {
+  width: 100%;
+  font-size: 12px;
+}
+.dataTable ul.dtr-details li {
+  list-style: none;
+}
+.dataTable ul.dtr-details li span.dtr-data {
+  font-weight: normal;
+  float: right;
+}
+.dataTable ul.dtr-details li span.dtr-data a.button {
+  display: inline-block;
+}
+.dataTables_wrapper .dataTables_filter input {
+  margin-left: 0px !important;
+}
+.dataTables_length {
+  display: none;
+}
+.blink_me {
+  animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  80% {
+    opacity: 0;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .wx-crypto-shortcodes-ticker .button.exchange-link {
+    float: none;
+    display: block;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+  }
+  .wx-crypto-shortcodes-ticker .toolbar {
+    text-align: center;
+  }
+  .wx-crypto-shortcodes-ticker .toolbar .time-interval-loading {
+    position: absolute;
+  }
+}
