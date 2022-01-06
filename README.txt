@@ -47,7 +47,7 @@ Yes! The plugin works with all CPTs.
 = Where can I add a shortcode? =
 Shortcodes -  `[wx-crypto-ticker]`, `[wx-crypto-price-table]`, `[wx-crypto-price-chart]`, `[wx-crypto-converter]`, `[wx-crypto-return-calculator]`, & `[wx-crypto-pp-calculator]` can be added to any page with a shortcode module/block. This will work with the Gutenberg editor or any page builder editor. 
 
-= What themes does the WX Crypto Shortcodes work with? =
+= What themes does the Crypto Price Widgets work with? =
 The plugin works with all WordPress themes!
 
 == Screenshots ==
