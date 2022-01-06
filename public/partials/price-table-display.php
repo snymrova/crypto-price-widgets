@@ -23,15 +23,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</thead>
 		<tbody>
 			<?php foreach ( $table_data as $row ) : ?>
-			<tr class="<?php echo $row['status']; ?>">
+			<tr class="<?php echo esc_attr($row['status']); ?>">
 				<td class="code">
-						<img alt="<?php echo $row['name']; ?>" src="<?php echo $row['logo']; ?>"/>
-						<?php echo $row['baseAsset']; ?>/<?php echo $row['quoteAsset']; ?>
+						<img alt="<?php echo esc_attr($row['name']); ?>" src="<?php echo esc_attr($row['logo']); ?>"/>
+						<?php echo esc_attr($row['baseAsset']); ?>/<?php echo esc_attr($row['quoteAsset']); ?>
 				</td>
-				<td>₹<?php echo $row['lastPrice']; ?></td>
-				<td class="change"><?php echo $row['change']; ?> (<?php echo $row['change'] < 0 ? '-' : ''; ?><?php echo $row['change_percentage']; ?>)</td>
-				<td>₹<?php echo $row['volume']; ?></td>
-				<td class="v-middle"><a target="_BLANK" href="https://wazirx.com/exchange/<?php echo $row['name']; ?><?php echo $affiliate_code; ?>" class="button">Buy On WazirX</a></td>
+				<td>₹<?php echo esc_attr($row['lastPrice']); ?></td>
+				<td class="change"><?php echo esc_attr($row['change']); ?> (<?php echo esc_attr($row['change']) < 0 ? '-' : ''; ?><?php echo esc_attr($row['change_percentage']); ?>)</td>
+				<td>₹<?php echo esc_attr($row['volume']); ?></td>
+				<td class="v-middle"><a target="_BLANK" href="https://wazirx.com/exchange/<?php echo esc_attr($row['name']); ?><?php echo esc_attr($affiliate_code); ?>" class="button">Buy On WazirX</a></td>
 			</tr>
 		   <?php endforeach; ?>
 
@@ -50,7 +50,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <script>
 (function( $ ) {
-	$('#<?php echo $id; ?>').DataTable({
+	$('#<?php echo esc_attr($id); ?>').DataTable({
 		"paging":   true,
 		"ordering": false,
 		"info":     false,

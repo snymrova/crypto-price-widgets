@@ -18,16 +18,20 @@ Usually, visitors love to consume data visually and grasp as much information as
 
 You will also get three calculators which will provide additional value to your site's visitors. You can configure your referral code which will enable you to earn massive passive income.
 
-= Company =
+== Company ==
 WazirX is India's most trusted bitcoin & cryptocurrency exchange. We’re building an exchange that will bring anyone who believes in crypto to join the digital cryptocurrency revolution. The world is moving on to this revolution at an unprecedented pace.
 
-= Features =
+== Features ==
 * **`[wx-crypto-ticker]`** - Displays cryptocurrencies in ticker format.
 * **`[wx-crypto-price-table]`** - Displays cryptocurrencies in a beautiful responsive price table format.
 * **`[wx-crypto-price-chart]`** - Show a chart of a market combination like btc-inr(default), xrp-inr, lte-inr etc. etc. Usage: `[wx-crypto-price-chart market=btc-inr]`
 * **`[wx-crypto-converter]`** - A handy bitcoin and crypto converter.
 * **`[wx-crypto-return-calculator]`** - A handy crypto returns calculator.
 * **`[wx-crypto-pp-calculator]`** - A handy crypto past performance calculator.
+
+== Third Party API & License Information ==
+* **API website:-** [https://www.wazirx.com](https://www.wazirx.com)	
+* **API docs:-** [https://docs.wazirx.com/](https://docs.wazirx.com/)	
 
 == Installation ==
 
