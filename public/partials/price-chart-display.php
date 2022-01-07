@@ -10,7 +10,7 @@ if (!defined('ABSPATH')) {
 // wx_c_debug($chart_data);
 ?>
 <?php $id = 'wx-crypto-shortocdes-chart-' . uniqid()?>
-<div id="<?php echo $id ?>" data-market="<?php echo $a['market'] ?>" data-referral_code="<?php echo $affiliate_code ?>">
+<div id="<?php echo esc_attr($id) ?>" data-market="<?php echo esc_attr($a['market']) ?>" data-referral_code="<?php echo esc_attr($affiliate_code) ?>">
 	<div class="wx-crypto-shortcodes-ticker" style="display:none;">
 		<h2 class="market-title">
 			<a target="_BLANK" class="exchange-link market-code" href="" title="Buy on WazirX"></a>
@@ -55,7 +55,7 @@ if (!defined('ABSPATH')) {
 
 
 (function( $ ) {
-  wx_crypto_shortcodes_render_chart("<?php echo $id ?>");
+  wx_crypto_shortcodes_render_chart("<?php echo esc_attr($id) ?>");
 })( jQuery );
 
 
