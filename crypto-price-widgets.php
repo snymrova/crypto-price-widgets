@@ -10,8 +10,8 @@
  * Plugin Name:       Crypto Price Widgets
  * Plugin URI:        https://wazirx.com/blog/wazirx-free-crypto-widgets/
  * Description:       This plugin empowers you to add ticker, charts, price table & calculators related to cryptocurrencies in your posts or pages.
- * Version:           1.0.0
- * Author:            Sunny Luthra
+ * Version:           1.0.1
+ * Author:            WazirX
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       wx-crypto-shortcodes
@@ -28,7 +28,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'WX_CRYPTO_SHORTCODES_VERSION', '1.0.2' );
+define( 'WX_CRYPTO_SHORTCODES_VERSION', '1.0.1' );
 define( 'WX_CRYPTO_API', 'https://api.wazirx.com/sapi/v1/' );
 define( 'WX_CRYPTO_CANDLE_API', 'https://x.wazirx.com/api/v2/k?market={market}&period={period}&limit={limit}&timestamp={timestamp}' );
 define( 'WX_CRYPTO_TRANSIENT_KEY', 'WX-CS' );

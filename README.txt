@@ -1,10 +1,10 @@
 === Crypto Price Widgets ===
-Contributors: luthra.sunny
+Contributors: wazirx, luthra.sunny
 Tags: cryptocurrency, blockchain, WazirX
 Requires at least: 4.2
 Requires PHP: 5.2
 Tested up to: 5.8
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,6 +60,10 @@ The plugin works with all WordPress themes!
 7. Crypto Past Performance Calculator
 
 == Changelog ==
+= 1.0.1 =
+- Add: Invite code added on calculators.
+
+= 1.0.0 =
 - Initial Release.
 
 
